@@ -182,6 +182,7 @@ body {
         grid-column: 1;
         grid-row: 1;
         word-break: keep-all;
+        text-align: center;
     }
 
     .post-sub {
