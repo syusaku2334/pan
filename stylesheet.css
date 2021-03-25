@@ -194,6 +194,7 @@ body {
         grid-column: 1;
         grid-row: 2;
         align-self: end;
+        padding-top: 20px;
     }
 
     .post-lead {
