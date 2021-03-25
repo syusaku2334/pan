@@ -138,6 +138,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: grid;
     row-gap: 20px;
 }
 
@@ -153,7 +154,6 @@ body {
     height: 2em;
     line-height: 2em;    
 }
-
 
 @media (min-width: 1000px) {
     .post {
@@ -202,9 +202,8 @@ body {
     .post-catch {
         margin-left: 0;
         margin-top: -35px;
-        justify-self: end;
-        background: rgba(169, 238, 234, 0.603);
-        box-shadow: 0 0 10px 10px rgba(169, 238, 234, 0.603);
+        background: rgba(192, 233, 231, 0.603);
+        box-shadow: 0 0 10px 10px rgba(192, 233, 231, 0.603);
         border-radius: 10px;
     }
 
