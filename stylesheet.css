@@ -210,4 +210,13 @@ body {
     .post-text01, .post-text02 {
         font-size: 15px;
     }
+    
+    .post-sns {
+        justify-self: center;
+    }
+
+    .post-sns ul {
+        grid-auto-flow: column;
+        column-gap: 20px;
+    }
 }
