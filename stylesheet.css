@@ -89,6 +89,20 @@ body {
     color: maroon;
 }
 
+.post-catch::before {
+    content: open-quote;
+}
+
+.post-catch::after {
+    content: close-quote;
+}
+
+.post-catch::after, .post-catch::before {
+    color: #aaa;
+    font-size: 2em;
+    font-weight: 900;
+}
+
 .post-text02 {
     grid-column: 3 / 5;
     grid-row: 8 / 13;
