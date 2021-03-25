@@ -87,6 +87,10 @@ body {
     align-self: center;
     text-align: center;
     color: maroon;
+    quotes: '“' '”';
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 5px;
 }
 
 .post-catch::before {
