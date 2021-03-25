@@ -181,6 +181,7 @@ body {
     .post-title {
         grid-column: 1;
         grid-row: 1;
+        word-break: keep-all;
     }
 
     .post-sub {
