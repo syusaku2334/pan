@@ -276,6 +276,23 @@ nav a {
     color: rgba(170, 212, 172, 0.932);
 }
 
+media (max-width: 767px) {
+    .top-icon {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    nav li {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    
+    .interview-button {
+        margin-right: 10px;
+    }
+}
+
+
 /* footer */
 
 footer {
@@ -290,4 +307,11 @@ footer {
     color: floralwhite;
     font-weight: 600;
     font-size: 24px;
+}
+@media (max-width: 767px) {
+    .copy {
+        font-size: 16px;
+        margin: 0;
+        text-align: center;
+    }
 }
