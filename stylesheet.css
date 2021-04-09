@@ -170,6 +170,7 @@ body {
         grid-template-rows: none;
         row-gap: 20px;
         padding-top: 120px;
+        padding-bottom: 20px;
         font-size: 14.4px;
     }
 
