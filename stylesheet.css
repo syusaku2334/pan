@@ -169,7 +169,7 @@ body {
         grid-template-columns: none;
         grid-template-rows: none;
         row-gap: 20px;
-        padding-top: 100px;
+        padding-top: 120px;
         font-size: 14.4px;
     }
 
@@ -278,17 +278,17 @@ nav a {
 
 @media (max-width: 767px) {
     .top-icon {
-        font-size: 13px;
-        margin-left: 5px;
+        font-size: 18px;
+        margin-left: 20px;
     }
 
     nav li {
-        font-size: 10px;
-        padding: 0 5px;
+        font-size: 15px;
+        padding: 0 13px;
     }
     
     .interview-button {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 }
 
