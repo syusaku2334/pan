@@ -222,3 +222,72 @@ body {
         column-gap: 20px;
     }
 }
+
+/* header */
+
+nav {
+    background-color: darkslategrey;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+.top-icon {
+    font-size: 40px;
+    text-decoration: none;
+    float: left;
+    margin-left: 150px;
+    padding: 0 20px;
+    line-height: 100px;
+    background-color: rgba(106, 155, 106, 0.3);
+}   
+
+.menu-button {
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    font-size: 24px;
+    padding: 0 20px;
+    line-height: 100px;
+}
+
+nav a {
+    color: floralwhite;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
+
+.top-icon:hover {
+    background-color:  rgba(106, 155, 106, 0.8);
+}
+
+.interview-button {
+    margin-right: 150px;
+}
+
+.interview-button:hover, .article-button:hover {
+    color: rgba(170, 212, 172, 0.932);
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+.copy {
+    line-height: 100px;
+    margin:0 0 0 150px;
+    color: floralwhite;
+    font-weight: 600;
+    font-size: 24px;
+}
